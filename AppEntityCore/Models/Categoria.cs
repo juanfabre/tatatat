@@ -9,7 +9,7 @@ namespace AppEntityCore.Models
         public int Id { get; set; }
         [Required]
         [StringLength(50)]
-        public string? NombreCategoria { get; set; }
+        public string? NombreCategoria { get; set; }//hola
         public ICollection <Producto>? Productos { get; set; }
     }
 }

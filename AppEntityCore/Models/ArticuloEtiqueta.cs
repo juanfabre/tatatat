@@ -9,7 +9,7 @@ namespace AppEntityCore.Models
 
         [ForeignKey("Etiqueta")]
         public int EtiquetaId { get; set; }
-
+        
         public Articulo? Articulo { get; set; }
         public Etiqueta? Etiqueta { get; set; }
     }
